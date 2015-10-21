@@ -1,0 +1,208 @@
+{
+  "basics": {
+    "name": "Giovanni Esposito",
+    "label": "Front End Developer",
+    "picture": "./img/profile_image.jpg",
+    "email": "gioesps@gmail.com",
+    "phone": "+39 3287588120",
+    "website": "",
+    "summary": "Giovanni is currently working with web technologies, particularly JavaScript, and he wants to learn every aspect of this awesome language. He is always willing to learn new technologies.  Giovanni has aquired excellent problem solving skills during the university.  When he is not writing code he is a homebrewer.  Giovanni's goal is to become a full stack developer.",
+    "location": {
+      "address": "Via Serrazzeta 77",
+      "postalCode": "84087",
+      "city": "Sarno",
+      "countryCode": "SA",
+      "region": "Italy"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "mrbabbs",
+        "url": "https://twitter.com/mrbabbs"
+      },
+      {
+        "network": "Linkedin",
+        "username": "egiovanni",
+        "url": "https://www.linkedin.com/in/egiovanni"
+      },
+      {
+        "network": "Skype",
+        "username": "gioesps",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Consultant at Engineering spa - Naples, Italy",
+      "position": "Front End Developer",
+      "website": "http://www.eng.it",
+      "startDate": "2015-01-12",
+      "summary": "OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.",
+      "highlights": [
+        "Developing and maintaining a Chrome Extension to create resources on OPENNESS platform.",
+        "Developing and maintaining a desktop cross platform application to receive push notifications from OPENNESS platform",
+        "Design and develop notification system (nodeJS) for a set of applications that interact with a OPENNESS platform."
+      ]
+    },
+    {
+      "company": "Red Hat Inc. - Munich, Germany",
+      "position": "Software Engineer Intern",
+      "website": "http://www.redhat.com",
+      "startDate": "2014-01-20",
+      "endDate": "2014-08-08",
+      "summary": "Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.",
+      "highlights": [
+        "Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model."
+      ]
+    },
+    {
+      "company": "Mangatar s.r.l. - Salerno, Italy",
+      "position": "Junior Full Stack Developer",
+      "website": "http://saga.mangatar.net",
+      "startDate": "2011-04-01",
+      "endDate": "2011-07-31",
+      "summary": "Mangatar is a social game takes place in the universe of Japanese comics: the manga. It is a massive multiplayer card game where you can engage your friends, make new acquaintances and build together your story with beautiful illustrations and manga your favorite characters.",
+      "highlights": [
+        "Integrated and developed a chat and a push notification system for a social browser game."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Università degli Studi di Salerno - Salerno, Italy",
+      "area": " Computer Science",
+      "studyType": "Master’s Degree",
+      "startDate": "2011-09-20",
+      "endDate": "2014-12-19",
+      "gpa": "4.0",
+      "courses": [
+        "Advanced Operating Systems",
+        "Advanced Computer Networks",
+        "Concurrent and Parallel Programming",
+        "Security",
+        "Distributed System",
+        "Advanced Algorithms",
+        "Algorithms and Structures in Social Networks"
+      ]
+    },
+    {
+      "institution": "Università degli Studi di Salerno - Salerno, Italy",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2007-09-20",
+      "endDate": "2011-09-16",
+      "gpa": "4.0",
+      "courses": [
+        "Procedural Programming",
+        "Object Oriented Programming",
+        "Algorithms",
+        "Data Structures",
+        "Web Development Technologies",
+        "Databases",
+        "Logic Programming"
+      ]
+    },
+    {
+      "institution": "University of Portsmouth - Portsmouth, UK",
+      "area": "Computer Science",
+      "studyType": "Erasmus Programme",
+      "startDate": "2009-09-01",
+      "endDate": "2010-02-08",
+      "gpa": "",
+      "courses": [
+        "Advanced Database Management",
+        "Fuzzy Logic",
+        "Logic Programming",
+        "Wireless Networks"
+      ]
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front-end development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "jQuery",
+        "Jasmine",
+        "SVG"
+      ]
+    },
+    {
+      "name": "Storage",
+      "level": "Intermediate",
+      "keywords": [
+        "MySql",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Back-end development",
+      "level": "Intermediate",
+      "keywords": [
+        "NodeJs",
+        "Php",
+        "Java",
+        "Python",
+        "Perl"
+      ]
+    },
+    {
+      "name": "Version control",
+      "level": "Advanced",
+      "keywords": [
+        "git",
+        "maven",
+        "svn"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Advanced",
+      "keywords": [
+        "REST",
+        "API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hobby",
+      "keywords": [
+        "Homebrewing",
+        "Riding my motorbike"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Swimming",
+        "Football"
+      ]
+    },
+    {
+      "name": "Tecnology",
+      "keywords": [
+        "Web",
+        "Mobile"
+      ]
+    }
+  ],
+  "references": []
+}
