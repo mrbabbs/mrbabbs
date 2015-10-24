@@ -163,6 +163,14 @@
       ]
     },
     {
+      "name": "Semantic web",
+      "level": "Advanced",
+      "keywords": [
+        "Microdate",
+        "RDFLite"
+      ]
+    },
+    {
       "name": "Other",
       "level": "Advanced",
       "keywords": [
