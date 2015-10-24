@@ -6,7 +6,7 @@
     "email": "gioesps@gmail.com",
     "phone": "+39 3287588120",
     "website": "",
-    "summary": "Giovanni is currently working with web technologies, particularly JavaScript, and he wants to learn every aspect of this awesome language. He is always willing to learn new technologies.  Giovanni has aquired excellent problem solving skills during the university.  When he is not writing code he is a homebrewer.  Giovanni's goal is to become a full stack developer.",
+    "summary": "Giovanni is currently working with web technologies, particularly JavaScript, and he wants to learn every aspect of this awesome language. He is always willing to learn new technologies. Giovanni has aquired excellent problem solving skills during the university. When he is not writing code; he is a homebrewer. Giovanni's goal is to become a full stack developer.",
     "location": {
       "address": "Via Serrazzeta 77",
       "postalCode": "84087",
@@ -68,15 +68,15 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Università degli Studi di Salerno - Salerno, Italy",
+  "volunteer": [],
       "area": " Computer Science",
       "studyType": "Master’s Degree",
       "startDate": "2011-09-20",
       "endDate": "2014-12-19",
-      "gpa": "4.0",
+      "gpa": "Summa cum Laude",
       "courses": [
         "Advanced Operating Systems",
         "Advanced Computer Networks",
@@ -93,7 +93,7 @@
       "studyType": "Bachelor's degree",
       "startDate": "2007-09-20",
       "endDate": "2011-09-16",
-      "gpa": "4.0",
+      "gpa": "Summa cum Laude",
       "courses": [
         "Procedural Programming",
         "Object Oriented Programming",
@@ -110,7 +110,7 @@
       "studyType": "Erasmus Programme",
       "startDate": "2009-09-01",
       "endDate": "2010-02-08",
-      "gpa": "",
+      "gpa": "",      
       "courses": [
         "Advanced Database Management",
         "Fuzzy Logic",
