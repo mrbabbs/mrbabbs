@@ -5,7 +5,7 @@
     "picture": "./img/profile_image.jpg",
     "email": "gioesps@gmail.com",
     "phone": "+39 3287588120",
-    "website": "",
+    "website": "http://mrbabbs.com",
     "summary": "Giovanni is currently working as Front End Developer, in the past worked as Software Engineer Intern in Red Hat where he worked in a international and stimulating environment. He is always willing to learn cutting edge technologies. When he is not writing code, he is a homebrewer. Giovanni's goal is to become a full stack developer.",
     "location": {
       "address": "",
@@ -29,6 +29,11 @@
         "network": "Skype",
         "username": "gioesps",
         "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "mrbabbs",
+        "url": "https://github.com/mrbabbs"
       }
     ]
   },
@@ -71,7 +76,7 @@
   "education": [
     {
       "institution": "Università degli Studi di Salerno - Salerno, Italy",
-  "volunteer": [],
+      "volunteer": [],
       "area": " Computer Science",
       "studyType": "Master’s Degree",
       "startDate": "2011-09-20",
@@ -125,13 +130,14 @@
       "name": "Front-end development",
       "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
         "Bootstrap",
         "jQuery",
-        "Jasmine",
-        "SVG"
+        "SVG",
+        "Ampersandjs",
+        "Jade"
       ]
     },
     {
@@ -175,7 +181,10 @@
       "level": "Advanced",
       "keywords": [
         "REST",
-        "API"
+        "API",
+        "Grunt",
+        "Jasmine",
+        "npm"
       ]
     }
   ],

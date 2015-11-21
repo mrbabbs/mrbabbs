@@ -118,7 +118,7 @@ strong {
 }
 
 /* main container */
-#resume {
+.main.wrapper {
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -129,25 +129,24 @@ strong {
 }
 
 section .location {
-    display: block;
-    margin-bottom: .5em;
+    margin-right: .5em;
     color: #606d76;
     font-weight: 700;
 }
 
-#contact {
+.contacts {
     margin-top: .5rem;
 }
 
-#profiles .item {
+.profiles .item {
     padding: 0;
 }
 
-#header > #profiles,
-#header > #contact,
-#skills,
-#languages,
-#interests {
+.header > .profiles,
+.header > .contacts,
+.skills,
+.languages,
+.interests {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -159,27 +158,27 @@ section .location {
     justify-content: flex-start;
 }
 
-#header > div {
+.header > div {
     line-height: 1.5;
 }
 
-#header > div > div {
+.header > div > div {
     margin-right: 1.2em;
 }
 
-#header h1.name {
+.header h1.name {
     font-size: 2.8rem;
     font-weight: 100;
     line-height: 100%;
 }
 
-#header h2.label {
+.header h2.label {
     color: #202931;
     font-size: 1.47rem;
     font-weight: 300;
 }
 
-#header .picture {
+.header .picture {
     width: 11em;
     float: right;
     border-radius: 4px;
@@ -294,7 +293,7 @@ h2.section-title {
 
 ul.keywords,
 ul.courses {
-    margin: 0;
+    margin-top: .5em;
 }
 
 ul.keywords li,
@@ -399,23 +398,23 @@ ul.courses li:hover {
     height: 40%;
 }
 
-#languages .item,
-#skills .item,
-#interests .item {
+.languages .item,
+.skills .item,
+.interests .item {
     width: 15em;
     padding: 0 .5em .5em 0;
     border-bottom: none;
 }
 
-#skills .item {
+.skills .item {
     width: 16em;
 }
 
-#skills .item .keywords {
+.skills .item .keywords {
     width: 15em;
 }
 
-/* Skills chart */
+/* Skill chart */
 .level {
     margin-bottom: .5em;
 }
@@ -459,7 +458,7 @@ ul.courses li:hover {
     width: 10em;
 }
 
-#references .item {
+.references .item {
     padding-left: .5em;
     border-left: 5px solid #ff6d1f;
 }
@@ -487,7 +486,7 @@ ul.courses li:hover {
 *		TABLET
 ****************/
 @media screen and (min-width: 602px) {
-    #resume {
+    .main.wrapper {
         width: 80%;
         margin: 0 auto;
     }
@@ -501,7 +500,7 @@ ul.courses li:hover {
         margin-left: 1.5em;
     }
 
-    #resume {
+    .main.wrapper {
         width: 820px;
         margin: 2rem auto;
         opacity: 0;
@@ -523,6 +522,20 @@ ul.courses li:hover {
     .organization::before,
     .awarder::before {
         content: "|";
+    }
+
+    .works header {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+
     }
 
     .header-left {
@@ -548,7 +561,7 @@ ul.courses li:hover {
 
 @media print {
 
-    #resume {
+    .main.wrapper {
         margin: 0;
         padding: 0;
         -ms-word-wrap: break-word;
@@ -628,7 +641,7 @@ ul.courses li:hover {
         content: "Skills acquired: ";
     }
 
-    #skills .keywords::before {
+    .skills .keywords::before {
         content: '';
     }
 
@@ -655,7 +668,7 @@ ul.courses li:hover {
         display: none;
     }
 
-    #profiles .item {
+    .profiles .item {
         padding: 0;
     }
 
@@ -669,8 +682,8 @@ ul.courses li:hover {
 	</head>
 
 	<body>
-		<div id="resume">
-				<header id="header" class="clear">
+		<div id="resume" class="main wrapper">
+				<header id="header" class="clear header">
 						<img class="picture" src="./img/profile_image.jpg" alt="Giovanni Esposito"/>
 						<div class="middle">
 							<h1 class="name">Giovanni Esposito</h1>
@@ -678,7 +691,6 @@ ul.courses li:hover {
 						</div>
 
 						<span class="location">
-              based in
 								<span class="city">
 									Salerno,
 								</span>
@@ -687,18 +699,26 @@ ul.courses li:hover {
 								</span>
 						</span>
 
+                    <div>born in ,  in </div>
 
-					<div id="contact">
+
+					<div id="contact" class="contacts ">
+						<div class="website">
+              <span class="fa fa-external-link"></span>
+							<a target="_blank" href="http://mrbabbs.com">http://mrbabbs.com</a>
+						</div>
 						<div class="email">
-							<a href="/cdn-cgi/l/email-protection#d1b6b8beb4a2a1a291b6bcb0b8bdffb2bebc"><span class="__cf_email__" data-cfemail="2146484e4452515261464c40484d0f424e4c">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+              <span class="fa fa-envelope-o"></span>
+							<a href="/cdn-cgi/l/email-protection#12757b7d7761626152757f737b7e3c717d7f"><span class="__cf_email__" data-cfemail="8deae4e2e8fefdfecdeae0ece4e1a3eee2e0">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
 						</div>
 						<div class="phone">
+              <span class="fa fa-mobile"></span>
 							+39 3287588120
 						</div>
 					</div>
 
-					<div id="profiles">
+					<div id="profiles" class="profiles ">
 						<div class="item">
 								<div class="username">
 									<span class="fa fa-twitter twitter social"></span>
@@ -721,6 +741,14 @@ ul.courses li:hover {
 										<span>gioesps</span>
 								</div>
 						</div>
+						<div class="item">
+								<div class="username">
+									<span class="fa fa-github github social"></span>
+									<span class="url">
+										<a href="https://github.com/mrbabbs">mrbabbs</a>
+									</span>
+								</div>
+						</div>
 					</div>
 				</header>
 
@@ -734,7 +762,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Skills</h2>
 					</header>
-					<section id="skills">
+					<section id="skills" class="skills ">
 						<div class="item">
 							<h3 class="name">
 								Front-end development
@@ -744,13 +772,14 @@ ul.courses li:hover {
 								<div class="bar"></div>
 							</div>
 							<ul class="keywords">
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Javascript</li>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
 								<li>Bootstrap</li>
 								<li>jQuery</li>
-								<li>Jasmine</li>
 								<li>SVG</li>
+								<li>Ampersandjs</li>
+								<li>Jade</li>
 							</ul>
 						</div>
 						<div class="item">
@@ -820,6 +849,9 @@ ul.courses li:hover {
 							<ul class="keywords">
 								<li>REST</li>
 								<li>API</li>
+								<li>Grunt</li>
+								<li>Jasmine</li>
+								<li>npm</li>
 							</ul>
 						</div>
 					</section>
@@ -829,35 +861,40 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Work Experience <span class="item-count">(3)</span></h2>
 					</header>
-					<section id="work">
+					<section id="work" class="works">
 								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-down"></span>
-									</span>
-									<div class="position">
-										Front End Developer
-									</div>
-									<div class="company">
-										Consultant at Engineering spa - Naples, Italy
-									</div>
-									<div class="date">
-										<span class="startDate">
-											January 2015
-										</span>
-										<span class="endDate">
-											- Current
-										</span>
-									</div>
+                                    <div>
+    									<span class="space-left">
+    											<span class="fa fa-caret-down"></span>
+    									</span>
+    									<div class="position">
+    										Front End Developer
+    									</div>
+    									<div class="company">
+    										Consultant at Engineering spa - Naples, Italy
+    									</div>
+                                    </div>
+
+                                    <div>
+    									<div class="date">
+    										<span class="startDate">
+    											January 2015
+    										</span>
+    										<span class="endDate">
+    											- Current
+    										</span>
+    									</div>
+                                    <div>
 								</header>
 
+                                <span class="website">
+                                    <a href="http://www.eng.it">http://www.eng.it</a>
+                                </span>
 
 
 								<div class="item display" style="opacity:1">
 									<div class="summary">
 										<p>OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.</p>
-									</div>
-									<div class="website">
-										<a href="http://www.eng.it">http://www.eng.it</a>
 									</div>
 									<ul class="highlights">
 											<li>Developing and maintaining a Chrome Extension to create resources on OPENNESS platform.</li>
@@ -866,66 +903,76 @@ ul.courses li:hover {
 									</ul>
 							</div>
 								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Software Engineer Intern
-									</div>
-									<div class="company">
-										Red Hat Inc. - Munich, Germany
-									</div>
-									<div class="date">
-										<span class="startDate">
-											January 2014
-										</span>
-										<span class="endDate">
-											- August 2014
-										</span>
-									</div>
+                                    <div>
+    									<span class="space-left">
+    											<span class="fa fa-caret-right"></span>
+    									</span>
+    									<div class="position">
+    										Software Engineer Intern
+    									</div>
+    									<div class="company">
+    										Red Hat Inc. - Munich, Germany
+    									</div>
+                                    </div>
+
+                                    <div>
+    									<div class="date">
+    										<span class="startDate">
+    											January 2014
+    										</span>
+    										<span class="endDate">
+    											- August 2014
+    										</span>
+    									</div>
+                                    <div>
 								</header>
 
+                                <span class="website">
+                                    <a href="http://www.redhat.com">http://www.redhat.com</a>
+                                </span>
 
 
 								<div class="item display none" style="opacity:0">
 									<div class="summary">
 										<p>Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.</p>
 									</div>
-									<div class="website">
-										<a href="http://www.redhat.com">http://www.redhat.com</a>
-									</div>
 									<ul class="highlights">
 											<li>Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model.</li>
 									</ul>
 							</div>
 								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Junior Full Stack Developer
-									</div>
-									<div class="company">
-										Mangatar s.r.l. - Salerno, Italy
-									</div>
-									<div class="date">
-										<span class="startDate">
-											April 2011
-										</span>
-										<span class="endDate">
-											- July 2011
-										</span>
-									</div>
+                                    <div>
+    									<span class="space-left">
+    											<span class="fa fa-caret-right"></span>
+    									</span>
+    									<div class="position">
+    										Junior Full Stack Developer
+    									</div>
+    									<div class="company">
+    										Mangatar s.r.l. - Salerno, Italy
+    									</div>
+                                    </div>
+
+                                    <div>
+    									<div class="date">
+    										<span class="startDate">
+    											April 2011
+    										</span>
+    										<span class="endDate">
+    											- July 2011
+    										</span>
+    									</div>
+                                    <div>
 								</header>
 
+                                <span class="website">
+                                    <a href="http://saga.mangatar.net">http://saga.mangatar.net</a>
+                                </span>
 
 
 								<div class="item display none" style="opacity:0">
 									<div class="summary">
 										<p>Mangatar is a social game takes place in the universe of Japanese comics: the manga. It is a massive multiplayer card game where you can engage your friends, make new acquaintances and build together your story with beautiful illustrations and manga your favorite characters.</p>
-									</div>
-									<div class="website">
-										<a href="http://saga.mangatar.net">http://saga.mangatar.net</a>
 									</div>
 									<ul class="highlights">
 											<li>Integrated and developed a chat and a push notification system for a social browser game.</li>
@@ -1066,7 +1113,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Languages</h2>
 					</header>
-					<section id="languages">
+					<section id="languages" class="languages ">
 							<div class="display">
 										<h3 class="language">
 											Italian
@@ -1096,7 +1143,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title' class='section-title'>Interests</h2>
 					</header>
-					<section id="interests">
+					<section id="interests" class="interests ">
 							<div class="item">
 									<h3 class="name">
 										Hobby
