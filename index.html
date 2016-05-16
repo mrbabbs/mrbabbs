@@ -72,6 +72,11 @@ body, html {
     webkit-text-size-adjust: 100%;
 }
 
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
+
 a {
     color: #0095ff;
     text-decoration: none;
@@ -114,11 +119,10 @@ blockquote {
 
 strong {
     font-weight: 700;
-    font-size: 1.1em;
 }
 
 /* main container */
-.main.wrapper {
+#resume {
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -134,19 +138,19 @@ section .location {
     font-weight: 700;
 }
 
-.contacts {
+#contact {
     margin-top: .5rem;
 }
 
-.profiles .item {
+#profiles .item {
     padding: 0;
 }
 
-.header > .profiles,
-.header > .contacts,
-.skills,
-.languages,
-.interests {
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -158,27 +162,27 @@ section .location {
     justify-content: flex-start;
 }
 
-.header > div {
+#header > div {
     line-height: 1.5;
 }
 
-.header > div > div {
+#header > div > div {
     margin-right: 1.2em;
 }
 
-.header h1.name {
+#header h1.name {
     font-size: 2.8rem;
     font-weight: 100;
     line-height: 100%;
 }
 
-.header h2.label {
+#header h2.label {
     color: #202931;
     font-size: 1.47rem;
     font-weight: 300;
 }
 
-.header .picture {
+#header .picture {
     width: 11em;
     float: right;
     border-radius: 4px;
@@ -191,7 +195,7 @@ section .location {
 }
 
 .main-summary p {
-    margin-top: .15em;
+    margin: .15em 0 0;
 }
 
 h2.section-title {
@@ -398,19 +402,19 @@ ul.courses li:hover {
     height: 40%;
 }
 
-.languages .item,
-.skills .item,
-.interests .item {
+#languages .item,
+#skills .item,
+#interests .item {
     width: 15em;
     padding: 0 .5em .5em 0;
     border-bottom: none;
 }
 
-.skills .item {
+#skills .item {
     width: 16em;
 }
 
-.skills .item .keywords {
+#skills .item .keywords {
     width: 15em;
 }
 
@@ -458,7 +462,7 @@ ul.courses li:hover {
     width: 10em;
 }
 
-.references .item {
+#references .item {
     padding-left: .5em;
     border-left: 5px solid #ff6d1f;
 }
@@ -486,7 +490,7 @@ ul.courses li:hover {
 *		TABLET
 ****************/
 @media screen and (min-width: 602px) {
-    .main.wrapper {
+    #resume {
         width: 80%;
         margin: 0 auto;
     }
@@ -500,7 +504,7 @@ ul.courses li:hover {
         margin-left: 1.5em;
     }
 
-    .main.wrapper {
+    #resume {
         width: 820px;
         margin: 2rem auto;
         opacity: 0;
@@ -522,20 +526,6 @@ ul.courses li:hover {
     .organization::before,
     .awarder::before {
         content: "|";
-    }
-
-    .works header {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
-
     }
 
     .header-left {
@@ -561,7 +551,7 @@ ul.courses li:hover {
 
 @media print {
 
-    .main.wrapper {
+    #resume {
         margin: 0;
         padding: 0;
         -ms-word-wrap: break-word;
@@ -641,7 +631,7 @@ ul.courses li:hover {
         content: "Skills acquired: ";
     }
 
-    .skills .keywords::before {
+    #skills .keywords::before {
         content: '';
     }
 
@@ -668,7 +658,7 @@ ul.courses li:hover {
         display: none;
     }
 
-    .profiles .item {
+    #profiles .item {
         padding: 0;
     }
 
@@ -682,43 +672,39 @@ ul.courses li:hover {
 	</head>
 
 	<body>
-		<div id="resume" class="main wrapper">
-				<header id="header" class="clear header">
+		<div id="resume">
+				<header id="header" class="clear">
 						<img class="picture" src="./img/profile_image.jpg" alt="Giovanni Esposito"/>
 						<div class="middle">
 							<h1 class="name">Giovanni Esposito</h1>
-							<h2 class="label">Front End Developer</h2>
+							<h2 class="label">Junior JavaScript Developer</h2>
 						</div>
 
 						<span class="location">
 								<span class="city">
-									Salerno,
+									Munich,
 								</span>
 								<span class="region">
-									Italy
+									Germany
 								</span>
 						</span>
-
-                    <div>born in ,  in </div>
-
-
-					<div id="contact" class="contacts ">
+                    <div> Born in Salerno, Italy in 1988</div>
+					<div id="contact">
 						<div class="website">
               <span class="fa fa-external-link"></span>
 							<a target="_blank" href="http://mrbabbs.com">http://mrbabbs.com</a>
 						</div>
 						<div class="email">
               <span class="fa fa-envelope-o"></span>
-							<a href="/cdn-cgi/l/email-protection#12757b7d7761626152757f737b7e3c717d7f"><span class="__cf_email__" data-cfemail="8deae4e2e8fefdfecdeae0ece4e1a3eee2e0">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
+							<a href="/cdn-cgi/l/email-protection#80e7e9efe5f3f0f3c0e7ede1e9ecaee3efed"><span class="__cf_email__" data-cfemail="46212f292335363506212b272f2a6825292b">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
 						</div>
 						<div class="phone">
               <span class="fa fa-mobile"></span>
-							+39 3287588120
+							+49 1573224783
 						</div>
 					</div>
 
-					<div id="profiles" class="profiles ">
+					<div id="profiles">
 						<div class="item">
 								<div class="username">
 									<span class="fa fa-twitter twitter social"></span>
@@ -754,7 +740,7 @@ ul.courses li:hover {
 
 					<section class="section main-summary">
 						<section>
-							<div><p>Giovanni is currently working as Front End Developer, in the past worked as Software Engineer Intern in Red Hat where he worked in a international and stimulating environment. He is always willing to learn cutting edge technologies. When he is not writing code, he is a homebrewer. Giovanni's goal is to become a full stack developer.</p></div>
+							<div><p>Giovanni is currently working as Front End Developer and he is also taking care to integrate a service for realtime system in the project. In the past, he worked as Software Engineer Intern in Red Hat in a international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to become a full stack developer.</p></div>
 						</section>
 					</section>
 
@@ -762,7 +748,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Skills</h2>
 					</header>
-					<section id="skills" class="skills ">
+					<section id="skills">
 						<div class="item">
 							<h3 class="name">
 								Front-end development
@@ -780,6 +766,8 @@ ul.courses li:hover {
 								<li>SVG</li>
 								<li>Ampersandjs</li>
 								<li>Jade</li>
+								<li>Less</li>
+								<li>ECMAScript 6</li>
 							</ul>
 						</div>
 						<div class="item">
@@ -851,7 +839,11 @@ ul.courses li:hover {
 								<li>API</li>
 								<li>Grunt</li>
 								<li>Jasmine</li>
+								<li>mochajs</li>
+								<li>chaijs</li>
+								<li>sinon</li>
 								<li>npm</li>
+								<li>kanban</li>
 							</ul>
 						</div>
 					</section>
@@ -859,32 +851,61 @@ ul.courses li:hover {
 
 				<section class="section">
 					<header>
-						<h2 class='section-title'>Work Experience <span class="item-count">(3)</span></h2>
+						<h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
 					</header>
-					<section id="work" class="works">
+					<section id="work">
 								<header>
-                                    <div>
-    									<span class="space-left">
-    											<span class="fa fa-caret-down"></span>
-    									</span>
-    									<div class="position">
-    										Front End Developer
-    									</div>
-    									<div class="company">
-    										Consultant at Engineering spa - Naples, Italy
-    									</div>
-                                    </div>
+									<span class="space-left">
+											<span class="fa fa-caret-down"></span>
+									</span>
+									<div class="position">
+										Junior JavaScript Developer
+									</div>
+									<div class="company">
+										Shore GmbH
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2016
+										</span>
+										<span class="endDate">
+											- Current
+										</span>
+									</div>
+								</header>
 
-                                    <div>
-    									<div class="date">
-    										<span class="startDate">
-    											January 2015
-    										</span>
-    										<span class="endDate">
-    											- Current
-    										</span>
-    									</div>
-                                    <div>
+                                <span class="website">
+                                    <a href="http://www.shore.com">http://www.shore.com</a>
+                                </span>
+
+
+								<div class="item display" style="opacity:1">
+									<div class="summary">
+										<p><p>Shore provides a software solution for appointments, customers and marketing. Intelligent and easy-to-use. With Shore, businesses of any type make their services bookable online, monitor their numbers and improve their customer relations.</p></p>
+									</div>
+									<ul class="highlights">
+											<li>Developing and maintaining UI of a messenger widget that allows a merchant to chat with his customers</li>
+											<li>Integration and maintaining a service for realtime system</li>
+									</ul>
+							</div>
+								<header>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Front End Developer
+									</div>
+									<div class="company">
+										Consultant at Engineering spa - Naples, Italy
+									</div>
+									<div class="date">
+										<span class="startDate">
+											January 2015
+										</span>
+										<span class="endDate">
+											- January 2016
+										</span>
+									</div>
 								</header>
 
                                 <span class="website">
@@ -892,9 +913,9 @@ ul.courses li:hover {
                                 </span>
 
 
-								<div class="item display" style="opacity:1">
+								<div class="item display none" style="opacity:0">
 									<div class="summary">
-										<p>OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.</p>
+										<p><p>OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.</p></p>
 									</div>
 									<ul class="highlights">
 											<li>Developing and maintaining a Chrome Extension to create resources on OPENNESS platform.</li>
@@ -903,28 +924,23 @@ ul.courses li:hover {
 									</ul>
 							</div>
 								<header>
-                                    <div>
-    									<span class="space-left">
-    											<span class="fa fa-caret-right"></span>
-    									</span>
-    									<div class="position">
-    										Software Engineer Intern
-    									</div>
-    									<div class="company">
-    										Red Hat Inc. - Munich, Germany
-    									</div>
-                                    </div>
-
-                                    <div>
-    									<div class="date">
-    										<span class="startDate">
-    											January 2014
-    										</span>
-    										<span class="endDate">
-    											- August 2014
-    										</span>
-    									</div>
-                                    <div>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Software Engineer Intern
+									</div>
+									<div class="company">
+										Red Hat Inc. - Munich, Germany
+									</div>
+									<div class="date">
+										<span class="startDate">
+											February 2014
+										</span>
+										<span class="endDate">
+											- August 2014
+										</span>
+									</div>
 								</header>
 
                                 <span class="website">
@@ -934,35 +950,30 @@ ul.courses li:hover {
 
 								<div class="item display none" style="opacity:0">
 									<div class="summary">
-										<p>Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.</p>
+										<p><p>Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.</p></p>
 									</div>
 									<ul class="highlights">
 											<li>Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model.</li>
 									</ul>
 							</div>
 								<header>
-                                    <div>
-    									<span class="space-left">
-    											<span class="fa fa-caret-right"></span>
-    									</span>
-    									<div class="position">
-    										Junior Full Stack Developer
-    									</div>
-    									<div class="company">
-    										Mangatar s.r.l. - Salerno, Italy
-    									</div>
-                                    </div>
-
-                                    <div>
-    									<div class="date">
-    										<span class="startDate">
-    											April 2011
-    										</span>
-    										<span class="endDate">
-    											- July 2011
-    										</span>
-    									</div>
-                                    <div>
+									<span class="space-left">
+											<span class="fa fa-caret-right"></span>
+									</span>
+									<div class="position">
+										Junior Full Stack Developer
+									</div>
+									<div class="company">
+										Mangatar s.r.l. - Salerno, Italy
+									</div>
+									<div class="date">
+										<span class="startDate">
+											April 2011
+										</span>
+										<span class="endDate">
+											- July 2011
+										</span>
+									</div>
 								</header>
 
                                 <span class="website">
@@ -972,7 +983,7 @@ ul.courses li:hover {
 
 								<div class="item display none" style="opacity:0">
 									<div class="summary">
-										<p>Mangatar is a social game takes place in the universe of Japanese comics: the manga. It is a massive multiplayer card game where you can engage your friends, make new acquaintances and build together your story with beautiful illustrations and manga your favorite characters.</p>
+										<p><p>Mangatar is a social game takes place in the universe of Japanese comics: the manga. It is a massive multiplayer card game where you can engage your friends, make new acquaintances and build together your story with beautiful illustrations and manga your favorite characters.</p></p>
 									</div>
 									<ul class="highlights">
 											<li>Integrated and developed a chat and a push notification system for a social browser game.</li>
@@ -1113,7 +1124,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title'>Languages</h2>
 					</header>
-					<section id="languages" class="languages ">
+					<section id="languages">
 							<div class="display">
 										<h3 class="language">
 											Italian
@@ -1136,6 +1147,17 @@ ul.courses li:hover {
 										</div>
 								</div>
 							</div>
+							<div class="display">
+										<h3 class="language">
+											German
+										</h3>
+								<div class="item">
+										<div class="level fluency beginner">
+											<em>Beginner</em>
+											<div class="bar"></div>
+										</div>
+								</div>
+							</div>
 					</section>
 				</section>
 
@@ -1143,7 +1165,7 @@ ul.courses li:hover {
 					<header>
 						<h2 class='section-title' class='section-title'>Interests</h2>
 					</header>
-					<section id="interests" class="interests ">
+					<section id="interests">
 							<div class="item">
 									<h3 class="name">
 										Hobby
@@ -1152,9 +1174,6 @@ ul.courses li:hover {
 											<li>Homebrewing</li>
 											<li>Riding my motorbike</li>
 									</ul>
-								<div class="summary">
-									<p></p>
-								</div>
 							</div>
 							<div class="item">
 									<h3 class="name">
@@ -1164,9 +1183,6 @@ ul.courses li:hover {
 											<li>Swimming</li>
 											<li>Football</li>
 									</ul>
-								<div class="summary">
-									<p></p>
-								</div>
 							</div>
 							<div class="item">
 									<h3 class="name">
@@ -1176,9 +1192,6 @@ ul.courses li:hover {
 											<li>Web</li>
 											<li>Mobile</li>
 									</ul>
-								<div class="summary">
-									<p></p>
-								</div>
 							</div>
 					</section>
 				</section>
@@ -1201,7 +1214,7 @@ ul.courses li:hover {
 						var item = header.nextSibling;
 
 						// select the .item element from the siblings
-						while (!item.classList || !item.classList.contains('item')) {
+						while (!item || !item.classList || !item.classList.contains('item')) {
 							item = item.nextSibling;
 						}
 
@@ -1231,11 +1244,6 @@ ul.courses li:hover {
 				elements.style.opacity = '1';
 			})();
 		</script>
-	<script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
-</body>
+	<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 
 </html>

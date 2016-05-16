@@ -1,18 +1,23 @@
 {
   "basics": {
     "name": "Giovanni Esposito",
-    "label": "Front End Developer",
+    "label": "Junior JavaScript Developer",
     "picture": "./img/profile_image.jpg",
     "email": "gioesps@gmail.com",
-    "phone": "+39 3287588120",
+    "phone": "+49 1573224783",
     "website": "http://mrbabbs.com",
-    "summary": "Giovanni is currently working as Front End Developer, in the past worked as Software Engineer Intern in Red Hat where he worked in a international and stimulating environment. He is always willing to learn cutting edge technologies. When he is not writing code, he is a homebrewer. Giovanni's goal is to become a full stack developer.",
+    "summary": "Giovanni is currently working as Front End Developer and he is also taking care to integrate a service for realtime system in the project. In the past, he worked as Software Engineer Intern in Red Hat in a international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to become a full stack developer.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Salerno",
+      "city": "Munich",
       "countryCode": "",
-      "region": "Italy"
+      "region": "Germany"
+    },
+    "birth": {
+      "place": "Salerno",
+      "state": "Italy",
+      "date": "1988"
     },
     "profiles": [
       {
@@ -39,10 +44,22 @@
   },
   "work": [
     {
+      "company": "Shore GmbH",
+      "position": "Junior JavaScript Developer",
+      "website": "http://www.shore.com",
+      "startDate": "2016-02-15",
+      "summary": "Shore provides a software solution for appointments, customers and marketing. Intelligent and easy-to-use. With Shore, businesses of any type make their services bookable online, monitor their numbers and improve their customer relations.",
+      "highlights": [
+        "Developing and maintaining UI of a messenger widget that allows a merchant to chat with his customers",
+        "Integration and maintaining a service for realtime system"
+      ]
+    },
+    {
       "company": "Consultant at Engineering spa - Naples, Italy",
       "position": "Front End Developer",
       "website": "http://www.eng.it",
       "startDate": "2015-01-12",
+      "endDate": "2016-01-31",
       "summary": "OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.",
       "highlights": [
         "Developing and maintaining a Chrome Extension to create resources on OPENNESS platform.",
@@ -54,7 +71,7 @@
       "company": "Red Hat Inc. - Munich, Germany",
       "position": "Software Engineer Intern",
       "website": "http://www.redhat.com",
-      "startDate": "2014-01-20",
+      "startDate": "2014-02-10",
       "endDate": "2014-08-08",
       "summary": "Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.",
       "highlights": [
@@ -115,7 +132,7 @@
       "studyType": "Erasmus Programme",
       "startDate": "2009-09-01",
       "endDate": "2010-02-08",
-      "gpa": "",      
+      "gpa": "",
       "courses": [
         "Advanced Database Management",
         "Fuzzy Logic",
@@ -137,7 +154,9 @@
         "jQuery",
         "SVG",
         "Ampersandjs",
-        "Jade"
+        "Jade",
+        "Less",
+        "ECMAScript 6"
       ]
     },
     {
@@ -184,7 +203,11 @@
         "API",
         "Grunt",
         "Jasmine",
-        "npm"
+        "mochajs",
+        "chaijs",
+        "sinon",
+        "npm",
+        "kanban"
       ]
     }
   ],
@@ -196,6 +219,10 @@
     {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner"
     }
   ],
   "interests": [
