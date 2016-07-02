@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Giovanni Esposito",
-    "label": "Junior JavaScript Developer",
+    "label": "JavaScript Developer",
     "picture": "./img/profile_image.jpg",
     "email": "gioesps@gmail.com",
     "phone": "+49 1573224783",
@@ -45,7 +45,7 @@
   "work": [
     {
       "company": "Shore GmbH",
-      "position": "Junior JavaScript Developer",
+      "position": "JavaScript Developer",
       "website": "http://www.shore.com",
       "startDate": "2016-02-15",
       "summary": "Shore provides a software solution for appointments, customers and marketing. Intelligent and easy-to-use. With Shore, businesses of any type make their services bookable online, monitor their numbers and improve their customer relations.",
