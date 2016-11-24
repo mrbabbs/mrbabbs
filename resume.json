@@ -51,7 +51,10 @@
       "summary": "Shore provides a software solution for appointments, customers and marketing. Intelligent and easy-to-use. With Shore, businesses of any type make their services bookable online, monitor their numbers and improve their customer relations.",
       "highlights": [
         "Developing and maintaining UI of a messenger widget that allows a merchant to chat with his customers",
-        "Integration and maintaining a service for realtime system"
+        "Integration and maintaining a service for realtime system",
+        "Developing and maintaining a video call widget",
+        "Integration and maintaining a video call system",
+        "Design and implementing JavaScript API client based on JSON API"
       ]
     },
     {
@@ -156,7 +159,10 @@
         "Ampersandjs",
         "Jade",
         "Less",
-        "ECMAScript 6"
+        "ECMAScript 6",
+        "React",
+        "Redux",
+        "Redux-Saga"
       ]
     },
     {
@@ -207,7 +213,9 @@
         "chaijs",
         "sinon",
         "npm",
-        "kanban"
+        "kanban",
+        "JSON API",
+        "vim"
       ]
     }
   ],
