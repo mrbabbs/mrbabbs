@@ -48,13 +48,11 @@
       "position": "JavaScript Developer",
       "website": "http://www.shore.com",
       "startDate": "2016-02-15",
-      "summary": "Shore provides a software solution for appointments, customers and marketing. Intelligent and easy-to-use. With Shore, businesses of any type make their services bookable online, monitor their numbers and improve their customer relations.",
+      "summary": "Front End Developer with the responsability in implementing and mantaining serveral company's products (CRM, Booking App, etc...)",
       "highlights": [
-        "Developing and maintaining UI of a messenger widget that allows a merchant to chat with his customers",
-        "Integration and maintaining a service for realtime system",
-        "Developing and maintaining a video call widget",
-        "Integration and maintaining a video call system",
-        "Design and implementing JavaScript API client based on JSON API"
+        "Work with product owner and backend developers in an agile enviroment with scrum metodology",
+        "Implemented a realtime chat system",
+        "Implemented a video call system"
       ]
     },
     {
@@ -63,11 +61,12 @@
       "website": "http://www.eng.it",
       "startDate": "2015-01-12",
       "endDate": "2016-01-31",
-      "summary": "OPENNESS is a collective intelligence and knowledge sharing platform, providing a set of basic services and tools to create, share and find contents, information, knowledge, experts, and ideas as well as to effectively and productively manage collaboration, work together and solve problems, within communities and teams.",
+      "summary": "Front End Developer with the role to create extenal tool for sharing contents on collaborative platform",
       "highlights": [
-        "Developing and maintaining a Chrome Extension to create resources on OPENNESS platform.",
-        "Developing and maintaining a desktop cross platform application to receive push notifications from OPENNESS platform",
-        "Design, development, and maintenance notification system (nodeJS) for a set of applications that interact with a OPENNESS platform."
+        "Create a browser Chrome Extension to share contents on a collaborative platform using REST API",
+        "Integrate a collaborative editor for editing documents in a multiuser environment",
+        "Create a desktop app and push notification server for realtime notification system",
+        "Work with a remote team"
       ]
     },
     {
@@ -76,9 +75,10 @@
       "website": "http://www.redhat.com",
       "startDate": "2014-02-10",
       "endDate": "2014-08-08",
-      "summary": "Thermostat is an instrumentation tool for the Hotspot JVM, with support for monitoring multiple JVM instances on multiple hosts, optionally in a cloud environment. The name Thermostat is intended as a play on words: Thermostat is to Hotspot much as IcedTea is to Java.",
+      "summary": "Create a pattern matching and data visulization for the next generation of mission controller for a Java could enviroment",
       "highlights": [
-        "Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model."
+        "Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model.",
+        "Work with a remote team"
       ]
     },
     {
@@ -87,9 +87,9 @@
       "website": "http://saga.mangatar.net",
       "startDate": "2011-04-01",
       "endDate": "2011-07-31",
-      "summary": "Mangatar is a social game takes place in the universe of Japanese comics: the manga. It is a massive multiplayer card game where you can engage your friends, make new acquaintances and build together your story with beautiful illustrations and manga your favorite characters.",
+      "summary": "Introduce a chat and a realtime notification system for a social browser game",
       "highlights": [
-        "Integrated and developed a chat and a push notification system for a social browser game."
+        "Integrated and developed a chat and a push notification system"
       ]
     }
   ],
@@ -152,17 +152,16 @@
       "keywords": [
         "HTML5",
         "CSS3",
-        "JavaScript",
+        "React",
+        "Redux",
+        "Redux-Saga",
         "Bootstrap",
         "jQuery",
         "SVG",
         "Ampersandjs",
         "Jade",
         "Less",
-        "ECMAScript 6",
-        "React",
-        "Redux",
-        "Redux-Saga"
+        "ECMAScript 6"
       ]
     },
     {
@@ -207,15 +206,14 @@
       "keywords": [
         "REST",
         "API",
-        "Grunt",
-        "Jasmine",
         "mochajs",
         "chaijs",
         "sinon",
         "npm",
         "kanban",
         "JSON API",
-        "vim"
+        "vim",
+        "scrum"
       ]
     }
   ],
