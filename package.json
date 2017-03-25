@@ -1,0 +1,28 @@
+{
+  "name": "mrbabbs.com",
+  "version": "1.0.0",
+  "description": "Personal Website and CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./node_modules/jsonresume-theme-stackoverflow && resume serve -r ../../resume.json",
+    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow && resume export index -f html -t stackoverflow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbabbs/mrbabbs.com.git"
+  },
+  "keywords": [
+    "CV",
+    "JSON",
+    "resume"
+  ],
+  "author": "mrbabbs (Giovanni Esposito gioesps@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrbabbs/mrbabbs.com/issues"
+  },
+  "homepage": "https://github.com/mrbabbs/mrbabbs.com#readme",
+  "devDependencies": {
+    "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git"
+  }
+}
