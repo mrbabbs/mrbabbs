@@ -49,6 +49,20 @@
       "website": "http://www.shore.com",
       "startDate": "2016-02-15",
       "summary": "Front End Developer with the responsability in implementing and mantaining serveral company's products (CRM, Booking App, etc...)",
+      "keywords": [
+        "ECMAScript 6",
+        "React",
+        "Redux",
+        "Redux-saga",
+        "Webpack",
+        "Less",
+        "Mocha",
+        "Sinon",
+        "Chai",
+        "Git",
+        "Scrum",
+        "JSON API"
+      ],
       "highlights": [
         "Work with product owner and backend developers in an agile enviroment with scrum metodology",
         "Implemented a realtime chat system",
@@ -259,6 +273,10 @@
       "name": "Devour client",
       "url": "https://github.com/twg/devour",
       "summary": "Contributed in fixing and implementing new features for a JavaScript JSON API client",
+      "keywords": [
+        "JSON API",
+        "JavaScript"
+      ],
       "highlights": [
         "<a href='https://github.com/twg/devour/pull/68' target='_blank'>Pull Request #68</a>",
         "<a href='https://github.com/twg/devour/pull/67' target='_blank'>Pull Request #67</a>",
@@ -270,6 +288,12 @@
       "name": "Stackoverflow JSON resume theme",
       "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow",
       "summary": "Contributed in fixing and implementing new features for a JSON resume theme",
+      "keywords": [
+        "JSON",
+        "handlebarsjs",
+        "JSON-resume",
+        "JavaScript"
+      ],
       "highlights": [
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/2' target='_blank'>Pull Request #2</a>",
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/3' target='_blank'>Pull Request #3</a>",
@@ -283,7 +307,7 @@
       "summary": "Programming challenge",
       "startDate": "2015-11-10",
       "endDate": "2015-11-20",
-      "highlights": [
+      "keywords": [
         "ampersandjs",
         "bootstrap",
         "browserify",
