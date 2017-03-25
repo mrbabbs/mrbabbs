@@ -258,7 +258,7 @@
     {
       "name": "Devour client",
       "url": "https://github.com/twg/devour",
-      "summary": "Contributed in fixing and implementing new feature for a JavaScript JSON API client",
+      "summary": "Contributed in fixing and implementing new features for a JavaScript JSON API client",
       "highlights": [
         "<a href='https://github.com/twg/devour/pull/68' target='_blank'>Pull Request #68</a>",
         "<a href='https://github.com/twg/devour/pull/67' target='_blank'>Pull Request #67</a>",
@@ -269,7 +269,7 @@
     {
       "name": "Stackoverflow JSON resume theme",
       "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow",
-      "summary": "Contributed in fixing and implementing new feature for a JSON resume theme",
+      "summary": "Contributed in fixing and implementing new features for a JSON resume theme",
       "highlights": [
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/2' target='_blank'>Pull Request #2</a>",
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/3' target='_blank'>Pull Request #3</a>",
