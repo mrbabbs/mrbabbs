@@ -276,6 +276,21 @@
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/19' target='_blank'>Pull Request #19</a>",
         "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/21' target='_blank'>Pull Request #21</a>"
       ]
+    },
+    {
+      "name": "Tic Tac Toe game",
+      "url": "http://www.mrbabbs.com/tictactoe",
+      "summary": "Programming challenge",
+      "startDate": "2015-11-10",
+      "endDate": "2015-11-20",
+      "highlights": [
+        "ampersandjs",
+        "bootstrap",
+        "browserify",
+        "git",
+        "jade",
+        "jasmine"
+      ]
     }
   ],
   "references": []
