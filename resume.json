@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Giovanni Esposito",
-    "label": "JavaScript Developer",
+    "label": "Front End Developer",
     "picture": "./img/profile_image.jpg",
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
@@ -45,7 +45,7 @@
   "work": [
     {
       "company": "Shore GmbH",
-      "position": "JavaScript Developer",
+      "position": "Front End Developer",
       "website": "http://www.shore.com",
       "startDate": "2016-02-15",
       "summary": "Front End Developer with the responsability in implementing and mantaining serveral company's products (CRM, Booking App, etc...)",
