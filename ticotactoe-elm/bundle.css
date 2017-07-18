@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-style: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tictactoeContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-size: 20px;
+    align-items: center;
+    position: relative;
+    padding-top: 0.6em;
+    transition-property: padding-top;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.tictactoeContainer__NewGameView {
+    padding-top: calc(50vh - 5em);
+}
+
+.tictactoeContainer__LeaderBoardView {
+    padding-top: calc(50vh - 7.5em);
+}
+
+.tictactoeContainer_BoardGame {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tictactoeContainer_BoardGame__Active {
+    opacity: 1;
+    flex-grow: 1;
+    padding: 1em 0;
+}
+
+.tictactoeContainer__LeaderBoard {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tictactoeContainer__LeaderBoard__Active {
+    opacity: 1;
+    padding: 1em 0;
+    flex-grow: 1;
+}
+
+.tictactoeContainer_NewGame__Active {
+    flex-grow: 1;
+}
+
+@media (max-width: 472px) {
+    .tictactoeContainer {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 420px) {
+    .tictactoeContainer {
+        font-size: 14px;
+    }
+}
+
+.tictactoeTextField {
+    display: inline-block;
+}
+
+.tictactoeTextField_InputText {
+    border-bottom: 0.1em solid #eeeeee;
+    width: 8em;
+    padding: 0.5em;
+    text-align: center;
+    transition-property: border-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+.tictactoeTextField_InputText:focus {
+    border-color: #5dd39e;
+}
+
+.tictactoeTextField_InputText::placeholder {
+    color: #bbbbbb;
+}
+
+.tictactoeTextField_InputText:disabled {
+    background-color: #ffffff;
+}
+
+.tictactoeTextField_InputText__PlayerO:focus {
+    border-color: #f77022;
+}
+
+.tictactoeTextField_InputText__CurrentO {
+    border-color: #f77022;
+}
+
+.tictactoeTextField_InputText__CurrentX {
+    border-color: #5dd39e;
+}
+
+.tictactoeVSLabel {
+    display: inline-block;
+    width: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tictactoeNewGameSubmit {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.tictactoeNewGameSubmit__Hidden {
+    visibility: hidden;
+}
+
+.tictactoeButton {
+    background-color: #33A1FD;
+    padding: 0.4em;
+    color: #ffffff;
+}
+
+.tictactoeButton__FullWidth {
+    width: 100%;
+    cursor: pointer;
+}
+
+.tictactoeBoard {
+    max-width: 25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.tictactoeTile {
+    display: block;
+    width: 7em;
+    height: 7em;
+    background-color: #ffffff;
+}
+
+.tictactoeTile:nth-child(3n+1) {
+    border-right: 0.05em solid #bbbbbb;
+}
+
+.tictactoeTile:nth-child(3n) {
+    border-left: 0.05em solid #bbbbbb;
+}
+
+.tictactoeTile_Marker {
+    font-size: 5em;
+    cursor: pointer;
+    display: block;
+}
+
+.tictactoeTile_Marker__X {
+    color: #5dd39e;
+    font-size: 6em;
+    transform: rotate(45deg);
+}
+
+.tictactoeTile_Marker__X::after {
+    content: "+";
+}
+
+.tictactoeTile_Marker__O {
+    color: #f77022;
+    padding-bottom: 0.1em;
+}
+
+.tictactoeTile_Marker__O::after {
+    content: "o";
+}
+
+.tictactoeBoard_Row {
+    display: flex;
+    justify-content: center;
+}
+
+.tictactoeBoard_Row:nth-child(1) {
+    border-bottom: 0.05em solid #bbbbbb;
+}
+
+.tictactoeBoard_Row:nth-child(2) {
+    border-bottom: 0.05em solid #bbbbbb;
+}
+
+.tictactoeLeaderBoard {
+    width: 21em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tictactoeLeaderBoard_Trofy {
+    font-size: 3em !important;
+    padding-bottom: 0.5em;
+}
+
+.tictactoeLeaderBoard_Winner {
+    padding: 0.5em;
+}
+
+.tictactoeLeaderBoard__O {
+    color: #f77022;
+}
+
+.tictactoeLeaderBoard__X {
+    color: #5dd39e;
+}
+
+.tictactoeFooter {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0.5em 5em;
+    color: #bbbbbb;
+    font-size: 0.9em;
+    border-top: 0.05em solid #bbbbbb;
+}
+
+.tictactoeFooter_Img {
+    height: 0.9em;
+    padding-right: 0.3em;
+}
+
+.tictactoeLink {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.tictactoeLink:visited {
+    color: #bbbbbb;
+}
+
+.tictactoeLink:hover {
+    color: #33A1FD;
+}
