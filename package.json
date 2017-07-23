@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cd ./node_modules/jsonresume-theme-stackoverflow && resume serve -r ../../resume.json",
     "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow && resume export index -f html -t stackoverflow",
-    "preversion": "git stash && npm run export && git add . && git commit -m 'Add new build version of CV'"
+    "preversion": "git stash && npm run export && git add . && git commit -m 'Add new build version of CV'",
+    "validate": "resume test"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/mrbabbs/mrbabbs.com#readme",
   "devDependencies": {
-    "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git"
+    "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git",
+    "resume-cli": "^0.4.19"
   }
 }
