@@ -304,18 +304,17 @@
       ]
     },
     {
-      "name": "Tic Tac Toe game",
-      "url": "http://www.mrbabbs.com/tictactoe",
+      "name": "Tic Tac Toe game in elm",
+      "url": "http://www.mrbabbs.com/tictactoe-elm",
       "summary": "Programming challenge",
-      "startDate": "2015-11-10",
-      "endDate": "2015-11-20",
+      "startDate": "2017-07-10",
+      "endDate": "2017-07-18",
       "keywords": [
-        "ampersandjs",
-        "bootstrap",
-        "browserify",
-        "git",
-        "jade",
-        "jasmine"
+        "elm",
+        "webpack",
+        "elm-css",
+        "BEM",
+        "git"
       ]
     }
   ],
