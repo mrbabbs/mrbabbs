@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Giovanni Esposito",
-    "label": "Front End Developer",
+    "label": "Full Stack Developer",
     "picture": "./img/profile_image.jpg",
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
     "website": "http://mrbabbs.com",
-    "summary": "Giovanni is currently working as Front End Developer and he is also taking care to integrate a service for realtime system in the project. In the past, he worked as Software Engineer Intern in Red Hat in a international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to become a full stack developer.",
+    "summary": "Giovanni is currently working as Full Stack Developer. Mainly, he is developing and maintaining a system regarding automatization and digitalization of financing and leasing document we banks. In the past, he worked as Front End Developer where he also designed an implemented a realtime systemes. During his internship at Red Hat, he worked as Software Engineer in a international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to gain as much as possible web developing expirence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -62,7 +62,8 @@
         "Git",
         "Scrum",
         "JSON API",
-        "elm"
+        "elm",
+        "vim"
       ],
       "highlights": [
         "Work with product owner and backend developers in an agile enviroment with scrum metodology",
@@ -177,7 +178,9 @@
         "Ampersandjs",
         "Jade",
         "Less",
-        "ECMAScript 6"
+        "ECMAScript 6",
+        "Vue",
+        "Typescript"
       ]
     },
     {
@@ -185,7 +188,8 @@
       "level": "Intermediate",
       "keywords": [
         "MySql",
-        "MongoDB"
+        "MongoDB",
+        "Postgress"
       ]
     },
     {
@@ -196,7 +200,8 @@
         "Php",
         "Java",
         "Python",
-        "Perl"
+        "Perl",
+        "Typescript"
       ]
     },
     {
