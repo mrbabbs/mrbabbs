@@ -44,10 +44,36 @@
   },
   "work": [
     {
+      "company": "InstaMotion GmbH",
+      "position": "Full Stack Developer",
+      "website": "https://www.instamotion.com",
+      "startDate": "2017-08-21",
+      "summary": "Full Stack Developer with the responsability in implementing and mantaining serveral company's products (Backoffice, documents digitalization etc...)",
+      "keywords": [
+        "Typescript",
+        "Vue",
+        "Vuex",
+        "Pug",
+        "Webpack",
+        "Expressjs",
+        "ava",
+        "aws",
+        "Heroku",
+        "Git",
+        "vim"
+      ],
+      "highlights": [
+        "Dealing with stackholders",
+        "Design and implementing new features based on stackholder's requirements",
+        "Deplaying and maintaining services"
+      ]
+    },
+    {
       "company": "Shore GmbH",
       "position": "Front End Developer",
       "website": "http://www.shore.com",
       "startDate": "2016-02-15",
+      "endDate": "2017-08-15",
       "summary": "Front End Developer with the responsability in implementing and mantaining serveral company's products (CRM, Booking App, etc...)",
       "keywords": [
         "ECMAScript 6",
