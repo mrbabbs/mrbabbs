@@ -6,7 +6,7 @@
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
     "website": "http://mrbabbs.com",
-    "summary": "Giovanni is currently working as Full Stack Developer. Mainly, he is developing and maintaining a system regarding automatization and digitalization of financing and leasing document we banks. In the past, he worked as Front End Developer where he also designed an implemented a realtime systemes. During his internship at Red Hat, he worked as Software Engineer in a international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to gain as much as possible web developing expirence.",
+    "summary": "Giovanni is currently working as Full Stack Developer. Mainly, he is developing and maintaining a system regarding automatization and digitalization of financing and leasing bank documents. In the past, he worked as Front End Developer where he also designed an implemented a realtime systems. During his internship at Red Hat, he worked as Software Engineer in an international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to gain as much as possible web developing expirence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -48,7 +48,7 @@
       "position": "Full Stack Developer",
       "website": "https://www.instamotion.com",
       "startDate": "2017-08-21",
-      "summary": "Full Stack Developer with the responsability in implementing and mantaining serveral company's products (Backoffice, documents digitalization etc...)",
+      "summary": "Full Stack Developer with responsability in implementing and mantaining serveral company's products (Backoffice, documents digitalization etc...)",
       "keywords": [
         "Typescript",
         "Vue",
@@ -65,7 +65,7 @@
       "highlights": [
         "Dealing with stackholders",
         "Design and implementing new features based on stackholder's requirements",
-        "Deplaying and maintaining services"
+        "Deploying and maintaining services"
       ]
     },
     {
