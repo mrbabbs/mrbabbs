@@ -2,16 +2,16 @@
   "basics": {
     "name": "Giovanni Esposito",
     "label": "Full Stack Developer",
-    "picture": "./img/profile_image.jpg",
+    "picture": "https://github.com/mrbabbs/mrbabbs.com/blob/master/img/profile_image.jpg?raw=true",
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
     "website": "http://mrbabbs.com",
     "summary": "Giovanni is currently working as Full Stack Developer. Mainly, he is developing and maintaining a system regarding automatization and digitalization of financing and leasing bank documents. In the past, he worked as Front End Developer where he also designed an implemented a realtime systems. During his internship at Red Hat, he worked as Software Engineer in an international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to gain as much as possible web developing expirence.",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address": "Fallstr. 16",
+      "postalCode": "81369",
       "city": "Munich",
-      "countryCode": "",
+      "countryCode": "DE",
       "region": "Germany"
     },
     "birth": {
@@ -33,7 +33,7 @@
       {
         "network": "Skype",
         "username": "gioesps",
-        "url": ""
+        "url": "https://www.skype.com"
       },
       {
         "network": "Github",
@@ -143,8 +143,8 @@
       "studyType": "Master’s Degree",
       "startDate": "2011-09-20",
       "endDate": "2014-12-19",
-      "gpa": "Summa cum Laude",
-      "courses": [
+      "gpa": "4.0",
+     "courses": [
         "Advanced Operating Systems",
         "Advanced Computer Networks",
         "Concurrent and Parallel Programming",
@@ -160,7 +160,7 @@
       "studyType": "Bachelor's degree",
       "startDate": "2007-09-20",
       "endDate": "2011-09-16",
-      "gpa": "Summa cum Laude",
+      "gpa": "4.0",
       "courses": [
         "Procedural Programming",
         "Object Oriented Programming",
@@ -177,7 +177,7 @@
       "studyType": "Erasmus Programme",
       "startDate": "2009-09-01",
       "endDate": "2010-02-08",
-      "gpa": "",
+      "gpa": "3.5",
       "courses": [
         "Advanced Database Management",
         "Fuzzy Logic",
@@ -215,7 +215,7 @@
       "keywords": [
         "MySql",
         "MongoDB",
-        "Postgress"
+        "PostgreSQL"
       ]
     },
     {
@@ -349,5 +349,8 @@
       ]
     }
   ],
-  "references": []
+  "references": [],
+  "awards": [],
+  "volunteer": []
 }
+
