@@ -4,8 +4,8 @@
   "description": "Personal Website and CV",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./node_modules/jsonresume-theme-stackoverflow && resume serve -r ../../resume.json",
-    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow && resume export index -f html -t stackoverflow",
+    "start": "cd ./node_modules/jsonresume-theme-stackoverflow-FA5 && resume serve -r ../../resume.json",
+    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow-FA5 && resume export index -f html -t stackoverflow && cp ./node_modules/jsonresume-theme-stackoverflow-FA5/public/index.html .",
     "preversion": "git stash && npm run export && git add . && git commit -m 'Add new build version of CV'",
     "validate": "resume test"
   },
@@ -27,5 +27,8 @@
   "devDependencies": {
     "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git",
     "resume-cli": "^0.4.19"
+  },
+  "dependencies": {
+    "jsonresume-theme-stackoverflow-FA5": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git"
   }
 }
