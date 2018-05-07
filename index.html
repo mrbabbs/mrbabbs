@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Giovanni Esposito</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <style>
   /********************************************
 * 	reset from
@@ -412,6 +412,7 @@ ul.courses li:hover {
 }
 
 .item {
+    overflow: hidden;
     padding: .5em 0;
 }
 
@@ -485,6 +486,14 @@ ul.courses li:hover {
 
 .flickr {
     color: #ff0084;
+}
+
+.reddit {
+    color: #ff4500;
+}
+
+.hacker-news {
+    color: #ff6600;
 }
 
 .stack-overflow::after {
@@ -627,10 +636,9 @@ ul.courses li:hover {
     }
     .toggle-item+label {
         display: block;
-        margin-top: -16px;
     }
     .toggle-item:checked+label:after {
-        content: '\f0d7';
+        content: "\f0d7";
     }
     .toggle-item+label:after {
         float: left;
@@ -638,8 +646,9 @@ ul.courses li:hover {
         margin-left: -20px;
         color: #aaa;
         font-size: 16px;
-        content: '\f0da';
-        font-family: Fontawesome;
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        content: "\f0da";
     }
     .toggle-item~.item {
         height: 0;
@@ -794,15 +803,15 @@ ul.courses li:hover {
     <div> Born in Salerno, Italy in 1988</div>
     		<div id="contact">
     			<div class="website">
-    				<span class="fa fa-external-link"></span>
+    				<span class="fas fa-external-link-alt"></span>
     				<a target="_blank" target="_blank" href="http://mrbabbs.com">http://mrbabbs.com</a>
     			</div>
     			<div class="email">
-    				<span class="fa fa-envelope-o"></span>
+    				<span class="far fa-envelope"></span>
     				<a href="mailto:gioesps@gmail.com">gioesps@gmail.com</a>
     			</div>
     			<div class="phone">
-    				<span class="fa fa-mobile"></span>
+    				<span class="fas fa-mobile-alt"></span>
     				<a href="tel:+49 15732240783">+49 15732240783</a>
     			</div>
     		</div>
@@ -810,7 +819,7 @@ ul.courses li:hover {
     		<div id="profiles">
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-twitter twitter social"></span>
+    					<span class="fab fa-twitter twitter social"></span>
     					<span class="url">
     						<a target="_blank" href="https://twitter.com/mrbabbs">mrbabbs</a>
     					</span> 
@@ -818,7 +827,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="fab fa-linkedin linkedin social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.linkedin.com/in/egiovanni">egiovanni</a>
     					</span> 
@@ -826,7 +835,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-skype skype social"></span>
+    					<span class="fab fa-skype skype social"></span>
     					<span class="url">
     						<a target="_blank" href="https://www.skype.com">gioesps</a>
     					</span> 
@@ -834,7 +843,7 @@ ul.courses li:hover {
     			</div>
     			<div class="item">
     				<div class="username">
-    					<span class="fa fa-github github social"></span>
+    					<span class="fab fa-github github social"></span>
     					<span class="url">
     						<a target="_blank" href="https://github.com/mrbabbs">mrbabbs</a>
     					</span> 
@@ -1141,7 +1150,7 @@ ul.courses li:hover {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Projects <span class="item-count">(3)</span></h2>
+        <h2 class='section-title'>Projects <span class="item-count">(4)</span></h2>
       </header>
       <section id="projects">
         <section class="project-item">
@@ -1216,6 +1225,34 @@ ul.courses li:hover {
               <li>elm</li>
               <li>webpack</li>
               <li>elm-css</li>
+              <li>BEM</li>
+              <li>git</li>
+          </ul>
+          <div class="item">
+            <div class="summary">
+              <p><p>Programming challenge</p></p>
+            </div>
+          </div>
+        </section>
+        <section class="project-item">
+            <input id="project-item-3" type="checkbox" class="toggle-item" />
+            <label for="project-item-3"></label>
+    
+          <header>
+            <div class="position">Github users search react</div>
+            <div class="date">
+              <span class="startDate">January 2018</span>
+              <span class="endDate">- January 2018</span>
+            </div>
+          </header>
+          <span class="website">
+            <a target="_blank" href="http://www.mrbabbs.com/github-users-search-react">http://www.mrbabbs.com/github-users-search-react</a>
+          </span>
+          <ul class="keywords">
+              <li>react</li>
+              <li>redux</li>
+              <li>saga</li>
+              <li>webpack</li>
               <li>BEM</li>
               <li>git</li>
           </ul>
