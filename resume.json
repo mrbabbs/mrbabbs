@@ -347,6 +347,21 @@
         "BEM",
         "git"
       ]
+    },
+    {
+      "name": "Github users search react",
+      "url": "http://www.mrbabbs.com/github-users-search-react",
+      "summary": "Programming challenge",
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-15",
+      "keywords": [
+        "react",
+        "redux",
+        "saga",
+        "webpack",
+        "BEM",
+        "git"
+      ]
     }
   ],
   "references": [],
