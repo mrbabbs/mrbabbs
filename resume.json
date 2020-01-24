@@ -6,7 +6,7 @@
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
     "website": "http://mrbabbs.com",
-    "summary": "Giovanni is currently working as Full Stack Developer. Mainly, he is developing and maintaining a system regarding automatization and digitalization of financing and leasing bank documents. In the past, he worked as Front End Developer where he also designed an implemented a realtime systems. During his internship at Red Hat, he worked as Software Engineer in an international and stimulating environment. He is always willing to learn cutting edge technologies. Giovanni's goal is to gain as much as possible web developing expirence.",
+    "summary": "Giovanni is currently working as Lead Software Engineering. Mainly, he is focusing on supporting his team on architectural and infrastructural decisions, mentoring team member and sharing knowledge. He also supports the product owner to find a trade-off between business decisions and technical approaches to solve problems. In the past, he worked as Front End Developer where he also designed and implemented real-time systems. During his internship at Red Hat, he worked as Software Engineer in an international and stimulating environment. He is always willing to learn cutting edge technologies.",
     "location": {
       "address": "Fallstr. 16",
       "postalCode": "81369",
@@ -43,6 +43,30 @@
     ]
   },
   "work": [
+    {
+      "company": "InstaMotion GmbH",
+      "position": "Lead Software Engineering",
+      "website": "https://www.instamotion.com",
+      "startDate": "2019-05-01",
+      "summary": "With the supporting of the team, migrating legacy systems from monolith approach to distributed ones, with a focus on increasing automatization and improving reliability",
+      "keywords": [
+        "Typescript",
+        "nodejs",
+        "Postgres",
+        "React",
+        "Webpack",
+        "aws serverless",
+        "Git",
+        "docker",
+        "Jenkins"
+      ],
+      "highlights": [
+        "Leading a team of 4 engineers",
+        "Supporting in architectural and infrastructural decisions",
+        "Cross team communications",
+        "Sharing knowledge and mentoring team member"
+      ]
+    },
     {
       "company": "InstaMotion GmbH",
       "position": "Full Stack Developer",
@@ -211,7 +235,7 @@
     },
     {
       "name": "Storage",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
         "MySql",
         "MongoDB",
@@ -220,23 +244,13 @@
     },
     {
       "name": "Back-end development",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
         "NodeJs",
         "Php",
-        "Java",
-        "Python",
-        "Perl",
-        "Typescript"
-      ]
-    },
-    {
-      "name": "Version control",
-      "level": "Advanced",
-      "keywords": [
-        "git",
-        "maven",
-        "svn"
+        "Typescript",
+        "serverless",
+        "docker"
       ]
     },
     {
@@ -251,6 +265,7 @@
       "name": "Other",
       "level": "Advanced",
       "keywords": [
+        "git",
         "REST",
         "API",
         "mochajs",
