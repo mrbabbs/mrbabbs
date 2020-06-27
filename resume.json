@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Giovanni Esposito",
-    "label": "Full Stack Developer",
+    "label": "Software Engineer",
     "picture": "https://github.com/mrbabbs/mrbabbs.com/blob/master/img/profile_image.jpg?raw=true",
     "email": "gioesps@gmail.com",
     "phone": "+49 15732240783",
     "website": "http://mrbabbs.com",
-    "summary": "Giovanni is currently working as Lead Software Engineering. Mainly, he is focusing on supporting his team on architectural and infrastructural decisions, mentoring team member and sharing knowledge. He also supports the product owner to find a trade-off between business decisions and technical approaches to solve problems. In the past, he worked as Front End Developer where he also designed and implemented real-time systems. During his internship at Red Hat, he worked as Software Engineer in an international and stimulating environment. He is always willing to learn cutting edge technologies.",
+    "summary": "Passionate Software Engineer over 5 years of experience in building cloud-based software, working, along the way, with cutting edge technologies like Typescript, React, nodejs, AWS, serverless computing, and Postgres. An open-minded and collaborative person, ready to take responsibility when required. With Entrepreneurial Spirit co-founder of Italian delicatessen e-commerce vonmamma.com. Football player in free time for a local team and novice cook in the kitchen baking bread and pizza.",
     "location": {
       "address": "Fallstr. 16",
       "postalCode": "81369",
@@ -45,51 +45,28 @@
   "work": [
     {
       "company": "InstaMotion GmbH",
-      "position": "Lead Software Engineering",
+      "position": "Software Engineer",
       "website": "https://www.instamotion.com",
       "startDate": "2019-05-01",
-      "summary": "With the supporting of the team, migrating legacy systems from monolith approach to distributed ones, with a focus on increasing automatization and improving reliability",
+      "summary": "Migrate legacy systems from monolith approach to distributed ones using serverless techology. Focus on increasing automatization and improving reliability of the systems",
       "keywords": [
         "Typescript",
         "nodejs",
         "Postgres",
         "React",
         "Webpack",
-        "aws serverless",
+        "aws",
+        "severless",
+        "Expressjs",
         "Git",
         "docker",
         "Jenkins"
       ],
       "highlights": [
+        "Design and implement cloud-based microservices, using serverless computing",
         "Leading a team of 4 engineers",
-        "Supporting in architectural and infrastructural decisions",
         "Cross team communications",
-        "Sharing knowledge and mentoring team member"
-      ]
-    },
-    {
-      "company": "InstaMotion GmbH",
-      "position": "Full Stack Developer",
-      "website": "https://www.instamotion.com",
-      "startDate": "2017-08-21",
-      "summary": "Full Stack Developer with responsability in implementing and mantaining serveral company's products (Backoffice, documents digitalization etc...)",
-      "keywords": [
-        "Typescript",
-        "Vue",
-        "Vuex",
-        "Pug",
-        "Webpack",
-        "Expressjs",
-        "ava",
-        "aws",
-        "Heroku",
-        "Git",
-        "vim"
-      ],
-      "highlights": [
-        "Dealing with stackholders",
-        "Design and implementing new features based on stackholder's requirements",
-        "Deploying and maintaining services"
+        "Mentor team members"
       ]
     },
     {
@@ -145,17 +122,6 @@
       "highlights": [
         "Designed a data graph model to represent data in Thermostat and implemented a command line plugin to extract data based on this model.",
         "Work with a remote team"
-      ]
-    },
-    {
-      "company": "Mangatar s.r.l. - Salerno, Italy",
-      "position": "Junior Full Stack Developer",
-      "website": "http://www.mangatar.net",
-      "startDate": "2011-04-01",
-      "endDate": "2011-07-31",
-      "summary": "Introduce a chat and a realtime notification system for a social browser game",
-      "highlights": [
-        "Integrated and developed a chat and a push notification system"
       ]
     }
   ],
@@ -222,11 +188,7 @@
         "React",
         "Redux",
         "Redux-Saga",
-        "Bootstrap",
-        "jQuery",
         "SVG",
-        "Ampersandjs",
-        "Jade",
         "Less",
         "ECMAScript 6",
         "Vue",
@@ -297,14 +259,13 @@
     {
       "name": "Hobby",
       "keywords": [
-        "Homebrewing",
+        "Backing",
         "Riding my motorbike"
       ]
     },
     {
       "name": "Sport",
       "keywords": [
-        "Swimming",
         "Football"
       ]
     },
@@ -312,11 +273,23 @@
       "name": "Tecnology",
       "keywords": [
         "Web",
-        "Mobile"
+        "Mobile",
+        "Progamming"
       ]
     }
   ],
   "projects": [
+    {
+      "name": "von Mamma",
+      "url": "https://www.vonmamma.com",
+      "summary": "Co-founder of Italian delicatessen e-commerce with a focus on selling tasty traditional Italian food.",
+      "startDate": "2019-01-01",
+      "keywords": [
+        "ecommerce",
+        "co-founder"
+      ],
+      "highlights": []
+    },
     {
       "name": "Devour client",
       "url": "https://github.com/twg/devour",
