@@ -26,7 +26,7 @@
   "homepage": "https://github.com/mrbabbs/mrbabbs.com#readme",
   "devDependencies": {
     "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git",
-    "resume-cli": "^0.4.19"
+    "resume-cli": "^1.2.8"
   },
   "dependencies": {
     "jsonresume-theme-stackoverflow-FA5": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git"
