@@ -45,7 +45,7 @@
   "work": [
     {
       "company": "InstaMotion GmbH",
-      "position": "Software Engineer",
+      "position": "Lead Software Engineer",
       "website": "https://www.instamotion.com",
       "startDate": "2019-05-01",
       "summary": "Migrate legacy systems from monolith approach to distributed ones using serverless techology. Focus on increasing automatization and improving reliability of the systems",
@@ -67,6 +67,31 @@
         "Leading a team of 4 engineers",
         "Cross team communications",
         "Mentoring team members"
+      ]
+    },
+    {
+      "company": "InstaMotion GmbH",
+      "position": "Software Engineer",
+      "website": "https://www.instamotion.com",
+      "startDate": "2017-08-15",
+      "endDate": "2019-05-01",
+      "summary": "Software Engineer with responsability in implementing and mantaining serveral company's products (Backoffice, documents digitalization and more)",
+      "keywords": [
+        "Typescript",
+        "Vue",
+        "Vuex",
+        "Pug",
+        "Webpack",
+        "Expressjs",
+        "ava",
+        "aws",
+        "Heroku",
+        "git"
+      ],
+      "highlights": [
+       "Dealing with stackholders",
+        "Design and implementing new features based on stackholder's requirements",
+        "Deploying and maintaining services"
       ]
     },
     {
