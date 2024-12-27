@@ -3,37 +3,19 @@
     "name": "Giovanni Esposito",
     "label": "Software Engineer",
     "picture": "https://github.com/mrbabbs/mrbabbs.com/blob/master/img/profile_image.jpg?raw=true",
-    "email": "gioesps@gmail.com",
-    "phone": "+49 15732240783",
-    "website": "http://mrbabbs.com",
+    "email": "gioesps+cv@gmail.com",
+    "website": "https://mrbabbs.com",
     "summary": "Passionate Software Engineer over 5 years of experience in building cloud-based software, working, along the way, with cutting edge technologies like Typescript, React, nodejs, AWS, serverless computing, and Postgres. An open-minded and collaborative person, ready to take responsibility when required. With Entrepreneurial Spirit co-founder of Italian delicatessen e-commerce vonmamma.com. Football player in free time for a local team and novice cook in the kitchen baking bread and pizza.",
     "location": {
-      "address": "Fallstr. 16",
-      "postalCode": "81369",
       "city": "Munich",
       "countryCode": "DE",
       "region": "Germany"
     },
-    "birth": {
-      "place": "Salerno",
-      "state": "Italy",
-      "date": "1988"
-    },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "mrbabbs",
-        "url": "https://twitter.com/mrbabbs"
-      },
       {
         "network": "Linkedin",
         "username": "egiovanni",
         "url": "https://www.linkedin.com/in/egiovanni"
-      },
-      {
-        "network": "Skype",
-        "username": "gioesps",
-        "url": "https://www.skype.com"
       },
       {
         "network": "Github",
@@ -48,6 +30,7 @@
       "position": "Lead Software Engineer",
       "website": "https://www.instamotion.com",
       "startDate": "2019-05-01",
+      "endDate": "2020-10-31",
       "summary": "Migrate legacy systems from monolith approach to distributed ones using serverless techology. Focus on increasing automatization and improving reliability of the systems",
       "keywords": [
         "Typescript",
@@ -89,7 +72,7 @@
         "git"
       ],
       "highlights": [
-       "Dealing with stackholders",
+        "Dealing with stackholders",
         "Design and implementing new features based on stackholder's requirements",
         "Deploying and maintaining services"
       ]
@@ -159,7 +142,7 @@
       "startDate": "2011-09-20",
       "endDate": "2014-12-19",
       "gpa": "4.0",
-     "courses": [
+      "courses": [
         "Advanced Operating Systems",
         "Advanced Computer Networks",
         "Concurrent and Parallel Programming",
@@ -309,6 +292,7 @@
       "url": "https://www.vonmamma.com",
       "summary": "Co-founder of Italian delicatessen e-commerce with a focus on selling tasty traditional Italian food.",
       "startDate": "2019-01-01",
+      "endDate": "2021-06-01",
       "keywords": [
         "ecommerce",
         "co-founder"
@@ -324,10 +308,10 @@
         "JavaScript"
       ],
       "highlights": [
-        "<a href='https://github.com/twg/devour/pull/68' target='_blank'>Pull Request #68</a>",
-        "<a href='https://github.com/twg/devour/pull/67' target='_blank'>Pull Request #67</a>",
-        "<a href='https://github.com/twg/devour/pull/51' target='_blank'>Pull Request #51</a>",
-        "<a href='https://github.com/twg/devour/pull/49' target='_blank'>Pull Request #49</a>"
+        "Pull Request #68 - https://github.com/twg/devour/pull/68",
+        "Pull Request #67 - https://github.com/twg/devour/pull/67",
+        "Pull Request #51 - https://github.com/twg/devour/pull/51",
+        "Pull Request #49 - https://github.com/twg/devour/pull/49"
       ]
     },
     {
@@ -339,12 +323,6 @@
         "handlebarsjs",
         "JSON-resume",
         "JavaScript"
-      ],
-      "highlights": [
-        "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/2' target='_blank'>Pull Request #2</a>",
-        "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/3' target='_blank'>Pull Request #3</a>",
-        "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/19' target='_blank'>Pull Request #19</a>",
-        "<a href='https://github.com/francescoes/jsonresume-theme-stackoverflow/pull/21' target='_blank'>Pull Request #21</a>"
       ]
     },
     {
@@ -381,4 +359,3 @@
   "awards": [],
   "volunteer": []
 }
-
