@@ -4,8 +4,8 @@
   "description": "Personal Website and CV",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./node_modules/jsonresume-theme-stackoverflow-FA5 && resume serve -r ../../resume.json",
-    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow-FA5 && resume export index -f html -t stackoverflow && cp ./node_modules/jsonresume-theme-stackoverflow-FA5/public/index.html .",
+    "start": "resume serve --theme jsonresume-theme-stackoverflow  -r ./resume.json",
+    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow && resume export index -f html -t stackoverflow && cp ./node_modules/jsonresume-theme-stackoverflow-FA5/public/index.html .",
     "preversion": "npm run export && git add ./index.html && git commit -m 'Add new build version of CV'",
     "validate": "resume test"
   },
@@ -25,10 +25,9 @@
   },
   "homepage": "https://github.com/mrbabbs/mrbabbs.com#readme",
   "devDependencies": {
-    "jsonresume-theme-stackoverflow": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git",
-    "resume-cli": "^1.2.8"
+    "resume-cli": "^3.0.8"
   },
   "dependencies": {
-    "jsonresume-theme-stackoverflow-FA5": "git+https://github.com/francescoes/jsonresume-theme-stackoverflow.git"
+    "jsonresume-theme-stackoverflow": "^2.1.0"
   }
 }
