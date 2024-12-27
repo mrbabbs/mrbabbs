@@ -4,8 +4,8 @@
   "description": "Personal Website and CV",
   "main": "index.js",
   "scripts": {
-    "start": "resume serve --theme jsonresume-theme-stackoverflow  -r ./resume.json",
-    "export": "npm i -g ./node_modules/jsonresume-theme-stackoverflow && resume export index -f html -t stackoverflow && cp ./node_modules/jsonresume-theme-stackoverflow-FA5/public/index.html .",
+    "start": "resume serve --theme jsonresume-theme-stackoverflow -r ./resume.json",
+    "export": "resume export index.html --format html --theme jsonresume-theme-stackoverflow",
     "preversion": "npm run export && git add ./index.html && git commit -m 'Add new build version of CV'",
     "validate": "resume validate"
   },
